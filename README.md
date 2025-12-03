@@ -34,16 +34,17 @@ The project addresses the following questions:
 4. Number of views and add-to-cart events per product category:
    - **Shellfish:** 6204 views | 3792 add-to-carts
    - **Fish:** 4633 views | 2789 add-to-carts
-   - **Luxury:** 3032 views | 1870 add-to-carts  
-6. Top 3 products by purchase count: **Product 1** (754), **Product 9** (726), **Product 8** (719)  
-7. Generate a table per product with:
-   - Number of views
-   - Number of add-to-cart events
-   - Number of abandoned carts (added to cart but not purchased)
-   - Number of purchases
-8. Generate a similar aggregated table per product category.  
-9. Identify products with the highest views, add-to-cart, and purchase counts.  
-10. Identify products with the highest cart abandonment.  
-11. Identify products with the highest view-to-purchase conversion rate.  
-12. Calculate average view-to-add-to-cart conversion rate.  
-13. Calculate average add-to-cart-to-purchase conversion rate.  
+   - **Luxury:** 3032 views | 1870 add-to-carts
+5. Top 3 products by purchase count: **Product 1** (754), **Product 9** (726), **Product 8** (719)  
+6. Product-level Analysis Table:
+   - Generated a detailed table containing Views, Add-to-cart, Abandoned carts, and Purchases for each product (ID 1-9).
+   - *Insight:* Product 1 has the highest purchases (754), while Product 9 has the highest views (1568).
+7. Category-level Analysis Table: Generated an aggregated table for Fish, Luxury, and Shellfish categories showing the funnel metrics.
+8. **Products with highest engagement metrics:**
+   - **Most Views:** Product 9 (1568 views)
+   - **Most Add-to-Cart:** Product 7 (968 adds)
+   - **Most Purchases:** Product 1 (754 purchases)  
+9. **Product with the highest cart abandonment:** **Product 4** (249 abandoned carts)  
+10. **Product with the highest view-to-purchase conversion rate:** **Product 7** (48.7% conversion rate)  
+11. **Average view-to-add-to-cart conversion rate**: 61.0%  
+12. **Average add-to-cart-to-purchase conversion rate**: 75.9%  
