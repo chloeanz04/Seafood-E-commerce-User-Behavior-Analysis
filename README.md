@@ -28,19 +28,22 @@ The analysis uses the following database and tables:
 ## Analysis Questions
 The project addresses the following questions:  
 
-1. Percentage of sessions with a purchase event.  
-2. Percentage of sessions viewing the checkout page but without a purchase.  
-3. Top 3 pages with the most views.  
-4. Number of views and add-to-cart events per product category.  
-5. Top 3 products by purchase count.  
-6. Generate a table per product with:
+1. Percentage of sessions with a purchase event: 49.9%  
+2. Percentage of sessions viewing the checkout page but without a purchase: 9.1%  
+3. Top 3 pages with the most views: **All Products** (3174), **Checkout** (2103), **Home Page** (1782)  
+4. Number of views and add-to-cart events per product category:
+   - **Shellfish:** 6204 views | 3792 add-to-carts
+   - **Fish:** 4633 views | 2789 add-to-carts
+   - **Luxury:** 3032 views | 1870 add-to-carts  
+6. Top 3 products by purchase count: **Product 1** (754), **Product 9** (726), **Product 8** (719)  
+7. Generate a table per product with:
    - Number of views
    - Number of add-to-cart events
    - Number of abandoned carts (added to cart but not purchased)
    - Number of purchases
-7. Generate a similar aggregated table per product category.  
-8. Identify products with the highest views, add-to-cart, and purchase counts.  
-9. Identify products with the highest cart abandonment.  
-10. Identify products with the highest view-to-purchase conversion rate.  
-11. Calculate average view-to-add-to-cart conversion rate.  
-12. Calculate average add-to-cart-to-purchase conversion rate.  
+8. Generate a similar aggregated table per product category.  
+9. Identify products with the highest views, add-to-cart, and purchase counts.  
+10. Identify products with the highest cart abandonment.  
+11. Identify products with the highest view-to-purchase conversion rate.  
+12. Calculate average view-to-add-to-cart conversion rate.  
+13. Calculate average add-to-cart-to-purchase conversion rate.  
