@@ -1,14 +1,16 @@
 # Seafood E-commerce User Behavior Analysis
-## Project Overview
+## Overview
 This project analyzes user behavior on a seafood e-commerce website. The goal is to extract insights from website events to understand user interactions, purchase behavior, and conversion rates across products and categories.  
 
 Key tasks include:  
 - Calculating purchase and abandonment rates.  
 - Identifying top-viewed, top-added-to-cart, and top-purchased products.  
 - Generating aggregated reports at both product and category levels.  
-- Calculating conversion metrics such as view-to-purchase and cart-to-purchase rates.  
+- Calculating conversion metrics such as view-to-purchase and cart-to-purchase rates.
 
-## Database and Data
+---
+
+## Database and tables description
 The analysis uses the following database and tables:
 
 ### Database
