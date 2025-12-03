@@ -1,4 +1,4 @@
-# Seafood E-commerce User Behavior Analysis
+# [SQL] Seafood E-commerce User Behavior Analysis
 ## Overview
 This project analyzes user behavior on a seafood e-commerce website. The goal is to extract insights from website events to understand user interactions, purchase behavior, and conversion rates across products and categories.  
 
@@ -21,7 +21,9 @@ The analysis uses the following database and tables:
 2. **users**: Tracks users via `cookie_id`.  
 3. **event_identifier**: Stores event types and names (Page View, Add to Cart, Purchase, Ad Impression, Ad Click).  
 4. **campaign_identifier**: Contains information on the 3 marketing campaigns run by the website.  
-5. **events**: Records each user action, including `cookie_id`, `page_id`, `event_type`, `event_time`, and `sequence_number`.  
+5. **events**: Records each user action, including `cookie_id`, `page_id`, `event_type`, `event_time`, and `sequence_number`.
+
+---
 
 ## Analysis Questions
 The project addresses the following questions:  
